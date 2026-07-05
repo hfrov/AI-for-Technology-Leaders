@@ -17,12 +17,64 @@ AI-first engineering is not about adding a model to an existing product. It mean
 2) Graceful degradation - instead of just failing, we need to introduce some fallback mechanisms ensuring we identify the problem but are able to move beyond the problem, we should send it to a human reviewer maybe, maybe add telemetry for later analysis [TODO] 
 3) Uncertainty quantifications - uses techniques like: Prediction intervals, Bayesian approaches, ensemble methods, this can be done by running multiple models on the same problem this will qualify if there is in fact inconsistency = confirmed uncertainty.
 
-Tiered responses — Design efter usikkerhed:
+4) Tiered responses — Design for insecurity: you can think of these as a way to establish a system when to escalate a response or not.
 
-Høj confidence → Brug AI-svar direkte
-Middel confidence → Brug AI-svar med asterisk/varsel
-Lav confidence → Eskalér til human eller fallback-system
-Logging uncertainty → Track hvor ofte fallback triggers — det indikerer om modellen er "driftet" eller om use case'en er uden for modellens træningsdata.
+High confidence → use AI answer directly.
+Medium confidence → use AI abswer but ckearky tag with a warning.
+Low confidence → escalate to a human or the fallback-system.
+
+Logging uncertainty → Track how often your fallback triggers — this is a strong indicator if your model might be drifting and needs further attention.
+
+Principles alone doesn't do it, and principles in isolation from reality will become discussion points rather than propel the team forward once the every day routines kick in.
+I believe in the principles, because they lead to some decisions that will determine the make it or break it for teams, but they should follow the maturity of the teams and support the process of building AI powered tools that will be enteprise ready in a short time.
+
+```mermaid
+graph LR
+    A[Data Source] --> B[Pipeline]
+    B --> C[ML Model]
+    C --> D{Confidence Check}
+    D -->|High| E[Direct Response]
+    D -->|Low| F[Human Review]
+    E --> G[User]
+    F --> G
+```
+
+## Experimentation & Principles: An Intertwined Journey
+
+The path to AI-first engineering isn't linear—architecture principles and team experimentation work in tandem. Principles guide experimentation, but experimentation also refines and validates those principles to fit organizational reality.
+
+```mermaid
+graph LR
+    subgraph Eksperimenter["🔬 Eksperimentering"]
+        A1["Test Ideas"]
+        A2["Discover Patterns"]
+        A3["Build Prototypes"]
+    end
+    
+    subgraph Principper["📋 Architecture Principles"]
+        B1["Establish Rules"]
+        B2["Validate Against Reality"]
+        B3["Adjust for Org Needs"]
+    end
+    
+    A1 -.->|Feedback| B1
+    A2 -.->|Input| B2
+    A3 -.->|Constraints| B3
+    
+    B1 -.->|Guides| A1
+    B2 -.->|Validates| A2
+    B3 -.->|Enables| A3
+    
+    A3 -->|Ready| Implement["🚀 Implement<br/>Sideløbende"]
+    B3 -->|Ready| Implement
+    Implement -->|Reality Check| A1
+    Implement -->|Principle Test| B1
+    
+    style Eksperimenter fill:#e1f5ff
+    style Principper fill:#fff3e0
+    style Implement fill:#e8f5e9
+```
+
 ## Team Model
 A high-performing AI-first organization combines:
 - Product and domain context

@@ -1,7 +1,7 @@
 # 01 - Introduction
 
 ## Why This Book
-Artificial intelligence has moved from experimentation to execution. Technology leaders are expected to deliver outcomes quickly while managing risk, cost, and organizational change.
+Artificial intelligence has moved from experimentation to execution. Technology leaders are expected to deliver outcomes quickly while managing risk, cost, and organizational change. In my experience with actually getting value and understanding how to generate value has been one of the biggest challenges. Whether your work in an organization that go with the "AI team" or are full scale into making product support AI driven, rewriting the process landscape or are just curious this book is for you.  
 
 ## The Leadership Shift
 AI is not only a technical capability. It changes how teams work, how products are built, and how decisions are made. This requires leaders to redesign systems, incentives, and operating habits.

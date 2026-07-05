@@ -13,16 +13,6 @@ I also created principles and guidance based on 7 domains in an enterprise that 
 
 ![AI Engineering Adoption](images/7DomainsToMaster.png)
 
-## What Has Changed
-- **Speed of delivery** — AI accelerates certain tasks, but introduces new complexity
-- **Skillsets required** — Engineers need to understand both traditional software and AI principles
-- **Quality definitions** — Success is no longer binary; it's probabilistic
+So in short this is not a book about AI, its a book about how to make the transformation journey in an enterprise setup to become an Engineering team powered with AI.
 
-## The New Engineering Paradigm
-[TODO] Traditional engineering assumed determinism. AI engineering embraces uncertainty as a first-class concern.
-
-## Key Challenges
-[TODO] Add key challenges engineers face in the AI era
-
-## Bridge to AI-First Engineering
-The next chapter explores how to make your entire organization AI-first, starting with engineering practices.
+In the next chapters I'll go through the various phases first in the Adoption plan and at the same time show how the domains are closely related to the different processes

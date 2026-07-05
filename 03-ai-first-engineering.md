@@ -45,13 +45,13 @@ The path to AI-first engineering isn't linear—architecture principles and team
 
 ```mermaid
 graph LR
-    subgraph Eksperimenter["🔬 Eksperimentering"]
+    subgraph Eksperimenter["🔬 <b>Eksperimentering</b>"]
         A1["Test Ideas"]
         A2["Discover Patterns"]
         A3["Build Prototypes"]
     end
     
-    subgraph Principper["📋 Architecture Principles"]
+    subgraph Principper["📋 <b>Architecture Principles</b>"]
         B1["Establish Rules"]
         B2["Validate Against Reality"]
         B3["Adjust for Org Needs"]
@@ -65,7 +65,7 @@ graph LR
     B2 -.->|Validates| A2
     B3 -.->|Enables| A3
     
-    A3 -->|Ready| Implement["🚀 Implement<br/>Sideløbende"]
+    A3 -->|Ready| Implement["🚀 Implement<br/>in parallel"]
     B3 -->|Ready| Implement
     Implement -->|Reality Check| A1
     Implement -->|Principle Test| B1

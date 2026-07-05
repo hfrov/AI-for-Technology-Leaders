@@ -45,7 +45,7 @@ The path to AI-first engineering isn't linear—architecture principles and team
 
 ```mermaid
 graph LR
-    subgraph Eksperimenter["🔬 <b>Eksperimentering</b>"]
+    subgraph Eksperimenter["🔬 <b>Experimenting</b>"]
         A1["Test Ideas"]
         A2["Discover Patterns"]
         A3["Build Prototypes"]
@@ -65,7 +65,7 @@ graph LR
     B2 -.->|Validates| A2
     B3 -.->|Enables| A3
     
-    A3 -->|Ready| Implement["🚀 Implement<br/>in parallel"]
+    A3 -->|Ready| Implement["🚀 Implement<br/>as you go"]
     B3 -->|Ready| Implement
     Implement -->|Reality Check| A1
     Implement -->|Principle Test| B1
@@ -81,6 +81,8 @@ A high-performing AI-first organization combines:
 - Data and ML expertise
 - Platform engineering excellence
 - Responsible AI practices
+and in between is probably room for many other combinations and skills. Let me drill a bit into how these roles compliment each other, why they matter and add some guidance on how you can build for success.
+Product and domain context, its likely obvious that without understanding what the team is already trying to accomplish, the business they're in, the objectives they have and the must win battles understanding what to tackle will require a lot more work. On the flipside this might distill and add focus to what really matters. Data and ML expertise are not essential at the very start up but they will certainly make the transition into production a lot easier
 
 ## Delivery Model
 ### Discover

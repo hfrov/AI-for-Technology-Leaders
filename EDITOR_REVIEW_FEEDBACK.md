@@ -1,3 +1,7 @@
+> **STATUS UPDATE (2026-07-08):** Issue #1 ("Chapter architecture is inconsistent") has been actioned by Claude - file names and internal chapter headings are now aligned 1:1, the duplicate AI-First Engineering chapter has been merged (03 -> stub, 04 -> canonical), and the research-heavy section from Issue #3 has been extracted out of the introduction into `appendix-a-state-of-ai-engineering-2026.md`. A new Chapter 2 ("The AI Engineering Framework", from the former `02-engineering-in-the-age-of-ai.md`) now carries the framework introduction and has been updated to the validated 8-domain model. Remaining issues (#2 language quality, #4 practical promise/checklists, #5 evidence caveats) are untouched - this pass was structural only, per the proposed rewrite sequence's step 1-2.
+>
+> Remaining action for you: run `git rm 03-ai-first-engineering.md` to remove the deprecated stub once confirmed.
+
 # Editorial Review - Honest and Constructive Feedback
 
 ## Overall verdict (hard editor mode)

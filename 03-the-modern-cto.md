@@ -1,4 +1,4 @@
-# 02 - The Modern CTO
+# 03 - The Modern CTO
 
 ## From Technology Owner to Business Co-Architect
 The modern CTO is no longer only responsible for platforms and delivery. The role now includes shaping business strategy, driving AI adoption, and building organizational capability.

@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1200 660" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Arial, Helvetica, sans-serif">
+<title>AI Engineering Framework - 8 Core Capabilities</title>
+<desc>Eight domains: Vision, Leadership, People, Ways of Working, Engineering Platform, AI Runtime and Operations, Governance, Outcomes.</desc>
+
+<rect x="0" y="0" width="1200" height="660" fill="#ffffff"/>
+<text x="600" y="34" text-anchor="middle" fill="#10192f" font-size="22" font-weight="bold">AI ENGINEERING FRAMEWORK — 8 CORE CAPABILITIES</text>
+<text x="600" y="56" text-anchor="middle" fill="#5b6472" font-size="13">A practical model for building and operating AI-powered engineering organizations</text>
+
+<!-- Row 1 -->
+<g>
+<rect x="20" y="80" width="278" height="260" rx="10" fill="#ffffff" stroke="#6b3fa0" stroke-width="2.5"/>
+<circle cx="52" cy="118" r="17" fill="#6b3fa0"/><text x="52" y="123" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">1</text>
+<text x="80" y="114" fill="#6b3fa0" font-size="15" font-weight="bold">VISION</text>
+<text x="80" y="131" fill="#8a93a3" font-size="10.5">Why are we doing this?</text>
+<text x="36" y="165" fill="#5b6472" font-size="11.5">Define why AI matters and</text>
+<text x="36" y="182" fill="#5b6472" font-size="11.5">the value we aim to achieve.</text>
+</g>
+
+<g>
+<rect x="314" y="80" width="278" height="260" rx="10" fill="#ffffff" stroke="#2f5fa8" stroke-width="2.5"/>
+<circle cx="346" cy="118" r="17" fill="#2f5fa8"/><text x="346" y="123" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">2</text>
+<text x="374" y="114" fill="#2f5fa8" font-size="15" font-weight="bold">LEADERSHIP</text>
+<text x="374" y="131" fill="#8a93a3" font-size="10.5">Who leads and owns it?</text>
+<text x="330" y="165" fill="#5b6472" font-size="11.5">Lead with clarity, align the</text>
+<text x="330" y="182" fill="#5b6472" font-size="11.5">org, drive accountability.</text>
+</g>
+
+<g>
+<rect x="608" y="80" width="278" height="260" rx="10" fill="#ffffff" stroke="#1f8a8a" stroke-width="2.5"/>
+<circle cx="640" cy="118" r="17" fill="#1f8a8a"/><text x="640" y="123" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">3</text>
+<text x="668" y="114" fill="#1f8a8a" font-size="15" font-weight="bold">PEOPLE</text>
+<text x="668" y="131" fill="#8a93a3" font-size="10.5">How do we build skills?</text>
+<text x="624" y="165" fill="#5b6472" font-size="11.5">Build skills, mindset and</text>
+<text x="624" y="182" fill="#5b6472" font-size="11.5">culture to create value.</text>
+</g>
+
+<g>
+<rect x="902" y="80" width="278" height="260" rx="10" fill="#ffffff" stroke="#3f8f4f" stroke-width="2.5"/>
+<circle cx="934" cy="118" r="17" fill="#3f8f4f"/><text x="934" y="123" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">4</text>
+<text x="962" y="114" fill="#3f8f4f" font-size="14" font-weight="bold">WAYS OF WORKING</text>
+<text x="962" y="131" fill="#8a93a3" font-size="10.5">How does AI change work?</text>
+<text x="918" y="165" fill="#5b6472" font-size="11.5">Integrate AI into workflows</text>
+<text x="918" y="182" fill="#5b6472" font-size="11.5">to improve outcomes.</text>
+</g>
+
+<!-- Row 2 -->
+<g>
+<rect x="20" y="360" width="278" height="260" rx="10" fill="#ffffff" stroke="#3f7fb0" stroke-width="2.5"/>
+<circle cx="52" cy="398" r="17" fill="#3f7fb0"/><text x="52" y="403" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">5</text>
+<text x="80" y="394" fill="#3f7fb0" font-size="13.5" font-weight="bold">ENGINEERING PLATFORM</text>
+<text x="80" y="411" fill="#8a93a3" font-size="10.5">Which tools enable us?</text>
+<text x="36" y="445" fill="#5b6472" font-size="11.5">Secure, scalable platform</text>
+<text x="36" y="462" fill="#5b6472" font-size="11.5">and tools for AI development.</text>
+</g>
+
+<g>
+<rect x="314" y="360" width="278" height="260" rx="10" fill="#16234a" stroke="#f2a71b" stroke-width="3"/>
+<rect x="314" y="360" width="80" height="20" fill="#f2a71b"/>
+<text x="354" y="374" text-anchor="middle" fill="#10192f" font-size="9" font-weight="bold">NEW IN v2</text>
+<circle cx="346" cy="405" r="17" fill="#f2a71b"/><text x="346" y="410" text-anchor="middle" fill="#10192f" font-size="14" font-weight="bold">6</text>
+<text x="374" y="399" fill="#ffffff" font-size="12.5" font-weight="bold">AI RUNTIME &amp;</text>
+<text x="374" y="414" fill="#ffffff" font-size="12.5" font-weight="bold">OPERATIONS</text>
+<text x="330" y="445" fill="#c7cfe0" font-size="11.5">Run, monitor and operate</text>
+<text x="330" y="462" fill="#c7cfe0" font-size="11.5">AI systems reliably.</text>
+</g>
+
+<g>
+<rect x="608" y="360" width="278" height="260" rx="10" fill="#ffffff" stroke="#e08a2e" stroke-width="2.5"/>
+<circle cx="640" cy="398" r="17" fill="#e08a2e"/><text x="640" y="403" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">7</text>
+<text x="668" y="394" fill="#e08a2e" font-size="15" font-weight="bold">GOVERNANCE</text>
+<text x="668" y="411" fill="#8a93a3" font-size="10.5">How do we manage risk?</text>
+<text x="624" y="445" fill="#5b6472" font-size="11.5">Manage risk, ensure</text>
+<text x="624" y="462" fill="#5b6472" font-size="11.5">compliance, use AI responsibly.</text>
+</g>
+
+<g>
+<rect x="902" y="360" width="278" height="260" rx="10" fill="#ffffff" stroke="#7a4bb0" stroke-width="2.5"/>
+<circle cx="934" cy="398" r="17" fill="#7a4bb0"/><text x="934" y="403" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">8</text>
+<text x="962" y="394" fill="#7a4bb0" font-size="15" font-weight="bold">OUTCOMES</text>
+<text x="962" y="411" fill="#8a93a3" font-size="10.5">How do we measure value?</text>
+<text x="918" y="445" fill="#5b6472" font-size="11.5">Measure impact, communicate</text>
+<text x="918" y="462" fill="#5b6472" font-size="11.5">value, keep improving.</text>
+</g>
+
+<text x="600" y="645" text-anchor="middle" fill="#8a93a3" font-size="11" font-style="italic">Use the framework as a compass: start where you are, focus on the next best step, and iterate.</text>
+</svg>

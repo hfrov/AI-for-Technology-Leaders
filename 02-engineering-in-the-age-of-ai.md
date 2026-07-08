@@ -1,4 +1,4 @@
-# 02 - Engineering in the Age of AI
+# 02 - The AI Engineering Framework
 
 ## The Engineering Transformation
 [TODO] Engineering has fundamentally changed. The role of the engineer is no longer just to code—it's to architect, orchestrate, and oversee AI systems. To accomplish adoption of the new paradigm I decided to go two ways throughout this book, a clear model for reference and a maturity level model to support organisations identify and manage this transformation. Why at all write about this, dont we soon have agents and AI to deal with it all? I obviously disagree, I think we need to clarify what we want, control and manage it all along, not least to be ready for when it doesn't, yes I used for when, not if, as amazing as AI and ML can feel, we must know that it continues to deliver the value we're looking for. Many others describe how to build a fantastic solution with MCP, stellar A2A collaboration that makes any process a breeze. This book and the framework I suggest is about the transformation that enables these many different opportunities and make it possible, whether in a regulated enterprise setup, a startup, an IT house, consultancy or any other business or organization looking to architect, control and manage AI Engineering. [TODO: round it off]
@@ -9,20 +9,12 @@ Further down is the maturity levels, I personally believe this is a good way to 
 
 ![AI Engineering Adoption](images/AI%20Engineering%20Adoption.png)
 
-I also created principles and guidance based on 7 domains in an enterprise that I believe are key to be successful on the mission to do a full transformation. But can also be used in the context of any AI project really.
+I also created principles and guidance based on 8 domains in an enterprise that I believe are key to be successful on the mission to do a full transformation - the eighth, AI Runtime & Operations, was added after validating the model against 2026 research on agent observability, guardrails and incident response, and it's the domain most enterprises still get wrong today. But can also be used in the context of any AI project really.
 
-![AI Engineering Adoption](images/7DomainsToMaster.png)
+![AI Engineering Framework - 8 Core Capabilities](images/8-core-capabilities.svg)
 
 So in short this is not a book about AI, its a book about how to make the transformation journey in an enterprise setup to become an Engineering team powered with AI.
 
 In the next chapters I'll go through the various phases first in the Adoption plan and at the same time show how the domains are closely related to the different processes
 
-Along the way I'll present different research on the topic, I'll add my experiences to the mix and we will explore different setups. In 2026 72% of Enterprises asked were somewhat in the process of introducing Agentic AI but only 21% of those have a mature agent-governance model in place. These are at the time of writing probably already on their way to reach a more mature level. Meanwhile lets look at some other stats from 2026:
-- 45% of AI generated Code fra 100+ tested LLM's introduce OWASP Top-10 vulnarbilities - this has been the same for the past 2 years.
-- 70% of 273 engineering leaders said application quality has dropped! 60% of those has experienced regressions and problems, simply because code was written fast and test wasnt added on top.
-- AI Generated code introduces on average 1.7 times more issues than human written code in production systems.
-- 92% of Engineers today use AI in their daily jobs creating code, but only 29% of those trust the code the AI is producing.
-
-These are some examples from my research, the common pattern for them is that AI is not perfect, without a structured approach to introducing and using these otherwise powerful tools, there is risk, we will look closer at how to mitigate these and ensure that it stays in good quality and improves itself along the way.
-
- 
+Along the way I'll present different research on the topic, I'll add my experiences to the mix and we will explore different setups. Two numbers set the tone: in 2026, 72% of enterprises were somewhere in the process of introducing agentic AI, but only 21% of those had a mature agent-governance model in place. The pattern behind that gap is the same pattern behind most of the research in this book: AI is not perfect, and without a structured approach to introducing and using these otherwise powerful tools, there is risk. The full 2026 data set - code quality, trust, tooling, and board-level statistics - is collected in **Appendix A: State of AI Engineering 2026**, so I won't repeat it chapter by chapter. We'll look closer at how to mitigate that risk and ensure it stays good quality and improves itself along the way.

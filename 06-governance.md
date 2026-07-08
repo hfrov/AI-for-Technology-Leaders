@@ -1,4 +1,4 @@
-# 05 - Governance
+# 06 - Governance
 
 ## Governance as an Enabler
 Effective AI governance should accelerate responsible delivery, not block innovation. The goal is to create clear guardrails, decision rights, and accountability.

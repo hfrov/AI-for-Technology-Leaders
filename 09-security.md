@@ -1,4 +1,4 @@
-# 07 - Security
+# 09 - Security
 
 ## AI Expands the Attack Surface
 AI systems introduce new risks across data, models, prompts, APIs, and supply chains. Security must be embedded across the full lifecycle.
